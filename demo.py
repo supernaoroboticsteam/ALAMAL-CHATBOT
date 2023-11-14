@@ -11,7 +11,7 @@ st.set_page_config(
     page_title="ALAMAL",
     page_icon="🎗️",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
     menu_items={
         'Get help' : 'https://github.com/achraf110',
         'Report a bug' : 'https://github.com/achraf110',
