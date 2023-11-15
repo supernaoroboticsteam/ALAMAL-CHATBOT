@@ -87,63 +87,63 @@ with st.sidebar:
     # Contributors 
     st.sidebar.markdown("---")
     with st.expander('Contributors'):
-        columns = st.columns([3,1,1])
+        columns = st.columns([3,0.5,0.5])
         with columns[0]:
             st.write("**CHAHBI Achraf**")
         with columns[1]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://www.linkedin.com/in/achraf-chahbi" style="float:center">
-                            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="22px"></img>
+                            <img src="./app/static/LinkedIn_logo_initials.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
         with columns[2]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://www.github.com/achraf110" style="float:center">
                             <img src="./app/static/github-sign.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
-        columns = st.columns([3,1,1])
+        columns = st.columns([3,0.5,0.5])
         with columns[0]:
             st.write("**EL JABRI Nabil**")
         with columns[1]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://www.linkedin.com/in/nabil-eljabri-77860723b/" style="float:center">
-                            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="22px"></img>
+                            <img src="./app/static/LinkedIn_logo_initials.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
         with columns[2]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://github.com/drdarkfrancis" style="float:center">
                             <img src="./app/static/github-sign.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
-        columns = st.columns([3,1,1])
+        columns = st.columns([3,0.5,0.5])
         with columns[0]:
             st.write("**LAKRARSI El Batoul**")
         with columns[1]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://www.linkedin.com/in/el-batoul-lakrarsi/" style="float:center">
-                            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="22px"></img>
+                            <img src="./app/static/LinkedIn_logo_initials.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
-        columns = st.columns([3,1,1])
+        columns = st.columns([3,0.5,0.5])
         with columns[0]:
             st.write("**EL HAI Ibtissam**")
         with columns[1]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://www.linkedin.com/in/ibtissam-el-hai-9417b0197" style="float:center">
-                            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="22px"></img>
+                            <img src="./app/static/LinkedIn_logo_initials.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
-        columns = st.columns([3,1,1])
+        columns = st.columns([3,0.5,0.5])
         with columns[0]:
             st.write("**BATAHI Salma**")
         with columns[1]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://www.linkedin.com/in/salma-batahi-/" style="float:center">
-                            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="22px"></img>
+                            <img src="./app/static/LinkedIn_logo_initials.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
-        columns = st.columns([3,1,1])
+        columns = st.columns([3,0.5,0.5])
         with columns[0]:
             st.write("**ELMIMOUNI Firdaous**")
         with columns[1]:
             st.write("""<div style="width:100%;text-align:center;">
                             <a href="https://www.linkedin.com/in/firdaous-elmimouni-62b737232" style="float:center">
-                            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="22px"></img>
+                            <img src="./app/static/LinkedIn_logo_initials.png" width="22px"></img>
                             </a></div>""",unsafe_allow_html=True)
             
     # University drop down         
@@ -177,7 +177,7 @@ with prompt_placeholder:
     cols = st.columns((6,1))
     cols[0].text_input(
         label="chat",
-        value="Hello Bot",
+        value="Hello ALAMAL",
         label_visibility="collapsed",
         key='human_prompt'
     )
